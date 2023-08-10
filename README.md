@@ -5,6 +5,7 @@
    - размер конечного image не должен превышать 200МБ;
    - написать helm chart;
 2. Helm chart
+   
     Результирующий Helm Chart должен включать в себя следующие API объекты:
       - deployment
       - ingress
