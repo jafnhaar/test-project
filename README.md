@@ -12,6 +12,7 @@
       - servicemonitors.monitoring.coreos.com
       - cronjob
 3. Вводные данные о приложении
+
 Поддерживает следующие ENV для конфигурации:
 
 
