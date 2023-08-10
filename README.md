@@ -12,7 +12,7 @@
       - service;
       - servicemonitors.monitoring.coreos.com;
       - cronjob;
-      - для объекта ingress должна быть возможность использовать cert-manager для генерации HTTPS сертефикатов от Let's Encrypt;
+      - для объекта ingress должна быть возможность использовать cert-manager для генерации HTTPS сертефикатов от Let's Encrypt; Представим, что текущий ClusterIssuer называется letsencrypt.
 3. Вводные данные о приложении
 
 Поддерживает следующие ENV для конфигурации:
