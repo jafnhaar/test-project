@@ -7,11 +7,12 @@
 2. Helm chart
    
     Результирующий Helm Chart должен включать в себя следующие API объекты:
-      - deployment
-      - ingress
-      - service
-      - servicemonitors.monitoring.coreos.com
-      - cronjob
+      - deployment;
+      - ingress;
+      - service;
+      - servicemonitors.monitoring.coreos.com;
+      - cronjob;
+      - для объекта ingress должна быть возможность использовать cert-manager для генерации HTTPS сертефикатов от Let's Encrypt;
 3. Вводные данные о приложении
 
 Поддерживает следующие ENV для конфигурации:
